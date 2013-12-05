@@ -2,13 +2,14 @@ golang-misc
 ===========
 
 ## progressBar
-命令行的进度提示条:
+golang命令行进度提示条.
     
 ``` golang
-pbar:=progressBar.New("label")
+import "progressbar"
+pbar:=progressbar.New("label")
 pbar.SetVal(10)
 ```
 
 显示效果:
 
- 10%[===========                                             ]label
+` 10%[===========                                             ]label`
